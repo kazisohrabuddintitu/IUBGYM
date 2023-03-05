@@ -65,21 +65,21 @@
             
           "
         >
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="javascript:window.location.reload(true)" class="">Home</a>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="javascript:window.location.reload(true)"> About</a>  
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="/membership">Membership</a>
             
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="/notice">Notice Board</a>
             
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-blue-400">
+          <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="javascript:window.location.reload(true)">Contact Us</a>
             
           </li>
