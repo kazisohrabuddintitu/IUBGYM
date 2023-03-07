@@ -6,7 +6,10 @@ module.exports = {
       colors:{ 
         "iub-color-primary": "#7f1d1d",
         "nav-color": '#d1d5db',
-      }
+      },
+      backgroundImage: theme=>({
+        'iub': "url('iub.png')"
+      })
     },
     fontFamily:{
       Roboto: ["Roboto, sans-serif"],

@@ -18,16 +18,14 @@
         "
       >
         <div class="flex items-center justify-between">
-          <router-link
-            to="/"
-            class="
+          <h1 class="
               text-xl 
               text-white
               md:text-2xl
               italic hover:not-italic
             "
             >IUB GYM
-          </router-link>
+          </h1>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
             <button
@@ -68,9 +66,7 @@
           <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="javascript:window.location.reload(true)" class="">Home</a>
           </li>
-          <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
-            <a href="javascript:window.location.reload(true)"> About</a>  
-          </li>
+          
           <li class="text-sm font-bold text-gray-800 hover:text-gray-600">
             <a href="/membership">Membership</a>
             
@@ -85,6 +81,51 @@
           </li>
         </ul>
       </nav>
+
+    <div class="content bg-opacity-50 bg-slate-500">
+      <div class="">
+			    <div class="grid place-items-center py-6 font-bold md:text-4xl text-base text-iub-color-primary">
+				    <h1 >IUB Gymnasium</h1>
+			    </div>
+					
+        <div class="px-4">
+					<div class="flex flex-col md:flex-row">
+						                    												
+								<div><img src="http://www.iub.edu.bd/img/articles/gym19032015/1.jpg" alt="IUB"></div>
+								<div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/3.jpg" alt="IUB"></div>
+                <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/4.jpg" alt="IUB"></div>
+          </div>
+          <div class="flex flex-col md:flex-row">
+
+								<div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/5.jpg" alt="IUB"></div>							
+								<div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/7.jpg" alt="IUB"></div>
+                <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/6.jpg" alt="IUB"></div>
+								
+					</div>
+        </div>   
+			</div>
+			<div class="py-6 px-4 ">
+            <p>The IUB Gymnasium is a state-of-the-art facility that has been 
+              designed to meet the fitness needs of students, faculty, and 
+              staff members. It is equipped with a wide range of exercise 
+              equipment, including treadmills, elliptical machines, weight 
+              machines, and free weights.<br><br>In addition to the equipment, the 
+              IUB Gymnasium offers a variety of fitness classes, such as yoga, 
+              Pilates, and spinning. These classes are led by certified 
+              instructors who are dedicated to helping participants achieve 
+              their fitness goals.<br><br> The IUB Gymnasium is more than just a place 
+              to exercise; it is a community. It provides a welcoming and 
+              inclusive environment where individuals from all backgrounds 
+              can come together to support each other in their fitness 
+              journeys.<br><br>So, whether you are a seasoned gym-goer or someone 
+              who is just starting their fitness journey, I encourage you to 
+              take advantage of the many opportunities that the IUB Gymnasium 
+              has to offer. Thank you for joining us today, and I hope you 
+              enjoy your time here! </p>
+			</div>
+    </div>
+
+
   </main>
 
 </template>
