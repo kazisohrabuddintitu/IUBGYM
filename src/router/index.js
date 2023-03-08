@@ -2,12 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import membership from '../views/membership.vue'
 import notice from '../views/notice.vue'
+import contact from '../views/contact.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/home',
+      path: '/',
       name: 'home',
       component: HomeView,
     },
@@ -23,6 +24,12 @@ const router = createRouter({
       path: '/notice',
       name: 'notice',
       component: notice,
+
+     },
+     {
+      path: '/contact',
+      name: 'contact',
+      component: contact,
 
      },
     // {
