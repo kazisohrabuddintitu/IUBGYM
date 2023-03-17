@@ -94,8 +94,8 @@
     
 
     <!-- Membership Process Section Start -->
-    <section id="content">
-        <h1 class="grid place-items-center font-bold pt-5 text-lg">Membership Process</h1>
+    <section id="content" class="bg-opacity-30 bg-slate-500">
+        <h1 class="grid place-items-center font-bold pt-5 text-lg text-iub-color-primary">Membership Process</h1>
         <form class="w-full max-w-md p-10">
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
@@ -165,7 +165,7 @@
 
 
     <!-- Members File Section Start -->
-    <section id="memberfile">
+    <section id="memberfile" class="bg-opacity-30 bg-slate-500">
 
         <div class="max-w-8xl mx-auto p-10">
           <h1 class="grid place-items-center text-lg font-bold italic hover:not-italic">Members</h1>
@@ -217,7 +217,7 @@
                       23
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="kazisohrab.jpg" alt="" width="200">
+                      <img src="kazisohrab.jpg" alt="" width="100">
                     </td>
 
                   </tr>
@@ -234,7 +234,7 @@
                       23
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="kazisohrab.jpg" alt="" width="200">
+                      <img src="kazisohrab.jpg" alt="" width="100">
                     </td>
 
                   </tr>
