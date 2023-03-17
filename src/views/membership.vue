@@ -1,17 +1,25 @@
 <template>
   <main class="min-h-screen">
-    <div class="container-fluid py-5 bg-iub-color-primary text-white
-     grid place-items-center
-      ">
-      <div class="md:pb-3">
-        <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
-      </div>
-      <div class="md:font-bold">
-        <h1>Independent University, Bangladesh</h1>
-      </div>
-    </div>
+    
+    <!-- Header Section Start -->
+    <section id="header">
+      <div class="container-fluid py-5 bg-iub-color-primary text-white
+        grid place-items-center
+          ">
+          <div class="md:pb-3">
+            <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+          </div>
+          <div class="md:font-bold">
+            <h1>Independent University, Bangladesh</h1>
+          </div>
+        </div>
+    </section>
+    <!-- Header Section End -->
+        
 
-    <nav
+    <!-- Navigation Section Start -->
+    <section id="navbar">
+      <nav
         class="
           md:flex md:justify-between md:items-center
           bg-gradient-to-r from-iub-color-primary to-nav-color px-2 sm:px-4 py-2.5
@@ -81,10 +89,165 @@
           </li>
         </ul>
       </nav>
+    </section>
+    <!-- Navigation Section End -->
+    
+
+    <!-- Membership Process Section Start -->
+    <section id="content">
+        <h1 class="grid place-items-center font-bold pt-5 text-lg">Membership Process</h1>
+        <form class="w-full max-w-md p-10">
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-given-name">
+                Given Name
+              </label>
+            </div>
+            <div class="md:w-2/3">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-given-name" type="text" value="">
+            </div>
+          </div>
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-sure-name">
+                Surename
+              </label>
+            </div>
+            <div class="md:w-2/3">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-sure-name" type="text" value="">
+            </div>
+          </div>
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-email">
+                IUB Email
+              </label>
+            </div>
+            <div class="md:w-2/3">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email" type="email" value="">
+            </div>
+          </div>
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+                Age
+              </label>
+            </div>
+            <div class="md:w-2/3">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-age" type="number" value="">
+            </div>
+          </div>
+          
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3 ">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-file" >
+                Upload Photo
+              </label>
+            </div>
+            <div class="md:w-2/3">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-file" type="file" value="">
+              <span class="text-xs text-gray-500 dark:text-gray-300" id="file_input_help">
+                <p>HEIC, PNG, JPG(MAX. 800x400px).</p>
+              </span>     
+            </div>    
+          </div>
+          <div class="md:flex md:items-center">
+            <div class="md:w-1/3"></div>
+            <div class="md:w-2/3">
+              <button class="shadow focus:shadow-outline focus:outline-none py-2 px-4 rounded hover:bg-slate-400" type="submit">
+                Submit & Payment
+              </button>
+            </div>
+          </div>
+        </form>
+    </section>
+    <!-- Membership Process Section End -->
 
 
+    <!-- Members File Section Start -->
+    <section id="memberfile">
+
+        <div class="max-w-8xl mx-auto p-10">
+          <h1 class="grid place-items-center text-lg font-bold italic hover:not-italic">Members</h1>
+
+          <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <div class="p-4">
+              <label for="table-search" class="sr-only">Search</label>
+              <div class="relative mt-1">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                  <input type="text" id="table-search" v-on:keyup=" memberFunction()" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-80 pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white" placeholder="Search member">
+                </div>
+              </div>
+              <table class="w-full text-sm text-center text-gray-500 dark:text-gray-400" id="memberTable">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                  <tr>
+
+                    <th scope="col" class="px-6 py-3">
+                      Member name
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Id
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Age
+                    </th>
+                    <th scope="col" class="px-6 py-3 w-250px">
+                      Picture
+                    </th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+
+                    <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                      Kazi Sohrab Uddin Titu
+                    </td>
+                    <td class="px-6 py-4">
+                      1931219
+                    </td>
+                    <td class="px-6 py-4">
+                      23
+                    </td>
+                    <td class="px-6 py-4 grid place-items-center ">
+                      <img src="kazisohrab.jpg" alt="" width="200">
+                    </td>
+
+                  </tr>
+
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+
+                    <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                      Kazi Sohrab Uddin Titu
+                    </td>
+                    <td class="px-6 py-4">
+                      1931219
+                    </td>
+                    <td class="px-6 py-4">
+                      23
+                    </td>
+                    <td class="px-6 py-4 grid place-items-center ">
+                      <img src="kazisohrab.jpg" alt="" width="200">
+                    </td>
+
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </section>
+    <!--  Members File Section End-->
 
 
+    <!-- Footer Section Start -->
+    <section id="footer">
       <div class="footer">
         <footer class="bg-iub-color-primary text-center text-white">
             <div class="container px-6 pt-6 pb-2 grid place-items-center">
@@ -104,13 +267,19 @@
               >
             </div>
           </footer>
-    </div>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+      
   </main>
 
 </template>
 
+
+
 <script>
 import {ref} from "vue";
+
 
 export default {
   data() {
@@ -118,5 +287,29 @@ export default {
       showMenu: false,
     };
   },
+  methods:{
+    memberFunction(){
+      // Declare variables 
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("table-search");
+        filter = input.value.toUpperCase();
+        table = document.getElementById("memberTable");
+        tr = table.getElementsByTagName("tr");
+
+        // Loop through all table rows, and hide those who don't match the search query
+        for (i = 0; i < tr.length; i++) {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          } 
+        }
+    }
+  }
 };
+
 </script>

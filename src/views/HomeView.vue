@@ -1,17 +1,26 @@
 <template>
   <main class="min-h-screen">
-    <div class="container-fluid py-5 bg-iub-color-primary text-white
+
+    <!-- Header Section Start -->
+    <section id="head">
+      <div class="container-fluid py-5 bg-iub-color-primary text-white
      grid place-items-center
       ">
-      <div class="md:pb-3">
-        <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+        <div class="md:pb-3">
+          <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+        </div>
+        <div class="md:font-bold">
+          <h1>Independent University, Bangladesh</h1>
+        </div>
       </div>
-      <div class="md:font-bold">
-        <h1>Independent University, Bangladesh</h1>
-      </div>
-    </div>
+    </section>
+    <!-- Header Section End -->
 
-    <nav
+
+
+    <!-- Navigation Section Start -->
+    <section id="navbar">
+      <nav
         class="
           md:flex md:justify-between md:items-center
           bg-gradient-to-r from-iub-color-primary to-nav-color px-2 sm:px-4 py-2.5
@@ -81,75 +90,84 @@
           </li>
         </ul>
       </nav>
+    </section>
+    <!-- Navigation Section End -->
 
-    <div class="content bg-opacity-50 bg-slate-500">
-      <div class="">
-			    <div class="grid place-items-center py-6 font-bold md:text-4xl text-base text-iub-color-primary">
-				    <h1 >IUB Gymnasium</h1>
+
+    <!-- Content Section Start -->
+    <section id="content">
+      <div class="content bg-opacity-50 bg-slate-500">
+          <div class="">
+            <div class="grid place-items-center py-6 font-bold md:text-4xl text-base text-iub-color-primary">
+              <h1 >IUB Gymnasium</h1>
+            </div>
+            
+            <div class="px-4">
+                <div class="flex flex-col md:flex-row">
+                                                              
+                      <div><img src="http://www.iub.edu.bd/img/articles/gym19032015/1.jpg" alt="IUB"></div>
+                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/3.jpg" alt="IUB"></div>
+                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/4.jpg" alt="IUB"></div>
+                </div>
+                <div class="flex flex-col md:flex-row">
+
+                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/5.jpg" alt="IUB"></div>							
+                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/7.jpg" alt="IUB"></div>
+                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/6.jpg" alt="IUB"></div>
+                      
+                </div>
+            </div>   
 			    </div>
-					
-        <div class="px-4">
-					<div class="flex flex-col md:flex-row">
-						                    												
-								<div><img src="http://www.iub.edu.bd/img/articles/gym19032015/1.jpg" alt="IUB"></div>
-								<div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/3.jpg" alt="IUB"></div>
-                <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/4.jpg" alt="IUB"></div>
+          <div class="py-6 px-4 italic">
+              <p>The IUB Gymnasium is a state-of-the-art facility that has been 
+                designed to meet the fitness needs of students, faculty, and 
+                staff members. It is equipped with a wide range of exercise 
+                equipment, including treadmills, elliptical machines, weight 
+                machines, and free weights.<br><br>In addition to the equipment, the 
+                IUB Gymnasium offers a variety of fitness classes, such as yoga, 
+                Pilates, and spinning. These classes are led by certified 
+                instructors who are dedicated to helping participants achieve 
+                their fitness goals.<br><br> The IUB Gymnasium is more than just a place 
+                to exercise; it is a community. It provides a welcoming and 
+                inclusive environment where individuals from all backgrounds 
+                can come together to support each other in their fitness 
+                journeys.<br><br>So, whether you are a seasoned gym-goer or someone 
+                who is just starting their fitness journey, I encourage you to 
+                take advantage of the many opportunities that the IUB Gymnasium 
+                has to offer. Thank you for joining us today, and I hope you 
+                enjoy your time here! </p>
           </div>
-          <div class="flex flex-col md:flex-row">
-
-								<div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/5.jpg" alt="IUB"></div>							
-								<div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/7.jpg" alt="IUB"></div>
-                <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/6.jpg" alt="IUB"></div>
-								
-					</div>
-        </div>   
-			</div>
-			<div class="py-6 px-4 ">
-            <p>The IUB Gymnasium is a state-of-the-art facility that has been 
-              designed to meet the fitness needs of students, faculty, and 
-              staff members. It is equipped with a wide range of exercise 
-              equipment, including treadmills, elliptical machines, weight 
-              machines, and free weights.<br><br>In addition to the equipment, the 
-              IUB Gymnasium offers a variety of fitness classes, such as yoga, 
-              Pilates, and spinning. These classes are led by certified 
-              instructors who are dedicated to helping participants achieve 
-              their fitness goals.<br><br> The IUB Gymnasium is more than just a place 
-              to exercise; it is a community. It provides a welcoming and 
-              inclusive environment where individuals from all backgrounds 
-              can come together to support each other in their fitness 
-              journeys.<br><br>So, whether you are a seasoned gym-goer or someone 
-              who is just starting their fitness journey, I encourage you to 
-              take advantage of the many opportunities that the IUB Gymnasium 
-              has to offer. Thank you for joining us today, and I hope you 
-              enjoy your time here! </p>
-			</div>
-    </div>
+      </div>
+    </section>
+    <!-- Content Secton End -->
+    
 
 
-
-
-
-
-    <div class="footer">
-      <footer class="bg-iub-color-primary text-center text-white">
-          <div class="container px-6 pt-6 pb-2 grid place-items-center">
-            <div class="md:pb-3">
-              <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+    <!-- Footer Section Start -->
+    <section id="footerarea">
+      <div class="footer">
+        <footer class="bg-iub-color-primary text-center text-white">
+            <div class="container px-6 pt-6 pb-2 grid place-items-center">
+              <div class="md:pb-3">
+                <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+              </div>
+              <div class="md:font-bold">
+                <h3>Independent University, Bangladesh</h3>
+              </div>
+            
             </div>
-            <div class="md:font-bold">
-              <h3>Independent University, Bangladesh</h3>
+            <hr style="border-width:3;">
+            <div class="p-4 text-center">
+              © 2023 Copyright:
+              <a class="text-whitehite" href="http://www.iub.edu.bd"
+                >IUB</a
+              >
             </div>
-          
-          </div>
-          <hr style="border-width:3;">
-          <div class="p-4 text-center">
-            © 2023 Copyright:
-            <a class="text-whitehite" href="http://www.iub.edu.bd"
-              >IUB</a
-            >
-          </div>
-        </footer>
-    </div>
+          </footer>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+    
   </main>
 
 </template>
