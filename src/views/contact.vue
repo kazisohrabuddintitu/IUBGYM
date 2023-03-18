@@ -83,7 +83,7 @@
               
             </li>
             <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-              <a href="#">Contact Us</a>
+              <a href="" onClick="document.location.reload(true)">Contact Us</a>
               
             </li>
             </ul>

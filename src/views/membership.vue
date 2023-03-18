@@ -76,7 +76,7 @@
           </li>
           
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="#">Membership</a>
+            <a href="" onClick="document.location.reload(true)">Membership</a>
             
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
@@ -145,16 +145,13 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-file" type="file" value="">
-              <span class="text-xs text-gray-500 dark:text-gray-300" id="file_input_help">
-                <p>HEIC, PNG, JPG(MAX. 800x400px).</p>
-              </span>     
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-file" type="file" value="">   
             </div>    
           </div>
           <div class="md:flex md:items-center">
             <div class="md:w-1/3"></div>
             <div class="md:w-2/3">
-              <button class="shadow focus:shadow-outline focus:outline-none py-2 px-4 rounded hover:bg-slate-400" type="submit">
+              <button class="shadow focus:shadow-outline focus:outline-none py-2 px-4 rounded hover:bg-slate-400 bg-slate-100" type="submit">
                 Submit & Payment
               </button>
             </div>
@@ -217,7 +214,7 @@
                       23
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="kazisohrab.jpg" alt="" width="100">
+                      <img src="kazisohrab.jpg" alt="sohrab" width="100">
                     </td>
 
                   </tr>
@@ -225,17 +222,49 @@
                   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
 
                     <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
-                      Kazi Sohrab Uddin Titu
+                      Asif Jobair 
                     </td>
                     <td class="px-6 py-4">
-                      1931219
+                      1931404
                     </td>
                     <td class="px-6 py-4">
-                      23
+                      22
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="kazisohrab.jpg" alt="" width="100">
+                      <img src="asif.jpg" alt="asif" width="100">
                     </td>
+
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+
+                  <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                    Arpon Paul 
+                  </td>
+                  <td class="px-6 py-4">
+                    1921421
+                  </td>
+                  <td class="px-6 py-4">
+                    24
+                  </td>
+                  <td class="px-6 py-4 grid place-items-center ">
+                    <img src="arpon.jpg" alt="arpon" width="100">
+                  </td>
+
+                  </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+
+                  <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                    Miraz Or Rashid Alvee
+                  </td>
+                  <td class="px-6 py-4">
+                    1931055
+                  </td>
+                  <td class="px-6 py-4">
+                    23
+                  </td>
+                  <td class="px-6 py-4 grid place-items-center ">
+                    <img src="alvi.jpg" alt="alvi" width="100">
+                  </td>
 
                   </tr>
                 </tbody>

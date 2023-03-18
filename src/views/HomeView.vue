@@ -73,7 +73,7 @@
           "
         >
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="#" class="">Home</a>
+            <a href="" onClick="document.location.reload(true)">Home</a>
           </li>
           
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">

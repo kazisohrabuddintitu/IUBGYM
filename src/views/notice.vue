@@ -78,7 +78,7 @@
             
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="#">Notice Board</a>
+            <a href="" onClick="document.location.reload(true)">Notice Board</a>
             
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
@@ -89,32 +89,109 @@
         </nav>
         </section>
         <!-- Navigation Section End -->
+
+
+
+
+
+        <!-- Notice Board Section Start -->
+        <section id="notice">
+
+
+          <div class="p-4">
+            <div class="flex flex-col md:flex-row md:columns-4 ">
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Off day 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">IUB GYM will remain close on Sunday, 19 March 2023.</p>
+                  </a>
+                </div>
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row md:columns-4">
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row md:columns-4 ">
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+                <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
+                  </a>
+                </div>
+            </div>
+          </div>
+
+        </section>
+        <!-- Notice Board Section End -->
       
 
-      <!-- Footer Section start -->
-        <section id="footerarea">
-          <div class="footer">
-            <footer class="bg-iub-color-primary text-center text-white">
-                <div class="container px-6 pt-6 pb-2 grid place-items-center">
-                  <div class="md:pb-3">
-                    <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+
+
+
+        <!-- Footer Section start -->
+          <section id="footerarea">
+            <div class="footer">
+              <footer class="bg-iub-color-primary text-center text-white">
+                  <div class="container px-6 pt-6 pb-2 grid place-items-center">
+                    <div class="md:pb-3">
+                      <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+                    </div>
+                    <div class="md:font-bold">
+                      <h3>Independent University, Bangladesh</h3>
+                    </div>
+                  
                   </div>
-                  <div class="md:font-bold">
-                    <h3>Independent University, Bangladesh</h3>
+                  <hr style="border-width:3;">
+                  <div class="p-4 text-center">
+                    © 2023 Copyright:
+                    <a class="text-whitehite" href="http://www.iub.edu.bd"
+                      >IUB</a
+                    >
                   </div>
-                
-                </div>
-                <hr style="border-width:3;">
-                <div class="p-4 text-center">
-                  © 2023 Copyright:
-                  <a class="text-whitehite" href="http://www.iub.edu.bd"
-                    >IUB</a
-                  >
-                </div>
-              </footer>
-          </div>
-        </section>
-        <!-- Footer Section End -->
+                </footer>
+            </div>
+          </section>
+          <!-- Footer Section End -->
 
 
     </main>
