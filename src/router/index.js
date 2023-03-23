@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import membership from '../views/membership.vue'
 import notice from '../views/notice.vue'
 import contact from '../views/contact.vue'
+import instructor from '../views/instructor.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +31,12 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: contact,
+
+     },
+     {
+      path: '/instructor',
+      name: 'instructor',
+      component: instructor,
 
      },
     // {

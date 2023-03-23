@@ -84,6 +84,10 @@
             
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+            <a href="/instructor">Instructor</a>
+            
+          </li>
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
             <a href="/contact">Contact Us</a>
             
           </li>
@@ -96,7 +100,7 @@
     <!-- Membership Process Section Start -->
     <section id="content" class="bg-opacity-30 bg-slate-500">
         <h1 class="grid place-items-center font-bold pt-5 text-lg text-iub-color-primary">Membership Process</h1>
-        <form class="w-full max-w-md p-10">
+        <form class="w-full max-w-xl p-10">
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
               <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-given-name">
@@ -137,7 +141,42 @@
               <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-age" type="number" value="">
             </div>
           </div>
-          
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+                Gender
+              </label>
+            </div>           
+            <div class="md:w-2/3">
+              <select id="gender" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500">
+                <option selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="trans">Transgender</option>
+              </select>
+            </div>
+          </div>
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+                Available Time Slot
+              </label>
+            </div>           
+            <div class="md:w-2/3">
+              <select id="gender" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500">
+                <option selected>Select your time slot</option>
+                <option value="1">08:00-09:00</option>
+                <option value="2">09:00-10:00</option>
+                <option value="3">10:00-11:00</option>
+                <option value="4">11:00-12:00</option>
+                <option value="5">12:00-13:00</option>
+                <option value="6">13:00-14:00</option>
+                <option value="7">14:00-15:00</option>
+                <option value="8">15:00-16:00</option>
+                <option value="9">16:00-17:00</option>
+              </select>
+            </div>
+          </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3 ">
               <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-file" >
@@ -195,8 +234,17 @@
                     <th scope="col" class="px-6 py-3">
                       Age
                     </th>
+                    <th scope="col" class="px-6 py-3">
+                      Gender
+                    </th>
+                    <th scope="col" class="px-6 py-3">
+                      Time Slot
+                    </th>
                     <th scope="col" class="px-6 py-3 w-250px">
                       Picture
+                    </th>
+                    <th scope="col" class="px-6 py-3 w-250px">
+                      Update
                     </th>
 
                   </tr>
@@ -213,8 +261,17 @@
                     <td class="px-6 py-4">
                       23
                     </td>
+                    <td class="px-6 py-4">
+                      Male
+                    </td>
+                    <td class="px-6 py-4">
+                      10:00-11:00
+                    </td>
                     <td class="px-6 py-4 grid place-items-center ">
                       <img src="kazisohrab.jpg" alt="sohrab" width="100">
+                    </td>
+                    <td class="px-6 py-4">
+                      <a href="#content" class="hover:text-iub-color-primary">Edit</a>
                     </td>
 
                   </tr>
@@ -230,10 +287,18 @@
                     <td class="px-6 py-4">
                       22
                     </td>
+                    <td class="px-6 py-4">
+                      Male
+                    </td>
+                    <td class="px-6 py-4">
+                      13:00-14:00
+                    </td>
                     <td class="px-6 py-4 grid place-items-center ">
                       <img src="asif.jpg" alt="asif" width="100">
                     </td>
-
+                    <td class="px-6 py-4">
+                      <a href="#content" class="hover:text-iub-color-primary">Edit</a>
+                    </td>
                   </tr>
                   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
 
@@ -246,10 +311,18 @@
                   <td class="px-6 py-4">
                     24
                   </td>
+                  <td class="px-6 py-4">
+                      Male
+                    </td>
+                    <td class="px-6 py-4">
+                      09:00-10:00
+                    </td>
                   <td class="px-6 py-4 grid place-items-center ">
                     <img src="arpon.jpg" alt="arpon" width="100">
                   </td>
-
+                  <td class="px-6 py-4">
+                      <a href="#content" class="hover:text-iub-color-primary">Edit</a>
+                    </td>
                   </tr>
                   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
 
@@ -262,10 +335,18 @@
                   <td class="px-6 py-4">
                     23
                   </td>
+                  <td class="px-6 py-4">
+                      Male
+                    </td>
+                    <td class="px-6 py-4">
+                      13:00-14:00
+                    </td>
                   <td class="px-6 py-4 grid place-items-center ">
                     <img src="alvi.jpg" alt="alvi" width="100">
                   </td>
-
+                  <td class="px-6 py-4">
+                      <a href="#content" class="hover:text-iub-color-primary">Edit</a>
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -276,27 +357,17 @@
 
 
     <!-- Footer Section Start -->
-    <section id="footer">
-      <div class="footer">
-        <footer class="bg-iub-color-primary text-center text-white">
-            <div class="container px-6 pt-6 pb-2 grid place-items-center">
-              <div class="md:pb-3">
-                <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
-              </div>
-              <div class="md:font-bold">
-                <h3>Independent University, Bangladesh</h3>
-              </div>
-            
+    <section id="footerarea">
+            <div class="footer border-2 border-t-white">
+                <footer class="bg-iub-color-primary text-center text-white ">                   
+                    <div class="p-4 text-center">
+                    © 2023 Copyright:
+                    <a class="text-whitehite" href="http://www.iub.edu.bd">
+                        IUB
+                    </a>
+                    </div>
+                </footer>
             </div>
-            <hr style="border-width:3;">
-            <div class="p-4 text-center">
-              © 2023 Copyright:
-              <a class="text-whitehite" href="http://www.iub.edu.bd"
-                >IUB</a
-              >
-            </div>
-          </footer>
-      </div>
     </section>
     <!-- Footer Section End -->
       
