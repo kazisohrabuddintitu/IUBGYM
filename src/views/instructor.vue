@@ -145,7 +145,7 @@
                                 Kazi Sohrab Uddin Titu
                                 </td>
                                 <td class="px-6 py-4">
-                                1931219
+                                1219
                                 </td>
                                 <td class="px-6 py-4">
                                 23
@@ -177,7 +177,7 @@
                                 Arpon Paul 
                             </td>
                             <td class="px-6 py-4">
-                                1921421
+                                1421
                             </td>
                             <td class="px-6 py-4">
                                 24
@@ -207,7 +207,7 @@
                                 Miraz Or Rashid Alvee
                             </td>
                             <td class="px-6 py-4">
-                                1931055
+                                1055
                             </td>
                             <td class="px-6 py-4">
                                 23
@@ -287,7 +287,7 @@
                                 Arpon Paul 
                             </td>
                             <td class="px-6 py-4">
-                                1921421
+                                1421
                             </td>
                             <td class="px-6 py-4">
                                 24
@@ -317,7 +317,7 @@
                                 Miraz Or Rashid Alvee
                             </td>
                             <td class="px-6 py-4">
-                                1931055
+                                1055
                             </td>
                             <td class="px-6 py-4">
                                 23
