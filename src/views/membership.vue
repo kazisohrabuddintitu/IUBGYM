@@ -7,7 +7,7 @@
         grid place-items-center
           ">
           <div class="md:pb-3">
-            <img src="http://www.iub.edu.bd/img/logo_white.png" alt="iub">
+            <img src="../components/iub_logo_white.png" alt="iub">
           </div>
           <div class="md:font-bold">
             <h1>Independent University, Bangladesh</h1>
