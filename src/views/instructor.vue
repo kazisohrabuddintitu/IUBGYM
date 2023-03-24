@@ -172,7 +172,7 @@
                                     </ul>
                                 </td>
                                 <td class="px-6 py-4 grid place-items-center ">
-                                <img src="kazisohrab.jpg" alt="sohrab" width="100">
+                                <img src="../components/kazisohrab.jpg" alt="sohrab" width="100">
                                 </td>
                             </tr>
                            
@@ -204,7 +204,7 @@
                                 </ul>  
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="arpon.jpg" alt="arpon" width="100">
+                                <img src="../components/arpon.jpg" alt="arpon" width="100">
                             </td>
                             </tr>
                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -234,7 +234,7 @@
                                 </ul>                                                       
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="alvi.jpg" alt="alvi" width="100">
+                                <img src="../components/alvi.jpg" alt="alvi" width="100">
                             </td>
                             </tr>
                             </tbody>
@@ -314,7 +314,7 @@
                                 </ul>  
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="arpon.jpg" alt="arpon" width="100">
+                                <img src="../components/arpon.jpg" alt="arpon" width="100">
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -344,7 +344,7 @@
                                 </ul>                                                       
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="alvi.jpg" alt="alvi" width="100">
+                                <img src="../components/alvi.jpg" alt="alvi" width="100">
                             </td>
                         </tr>
                         </tbody>

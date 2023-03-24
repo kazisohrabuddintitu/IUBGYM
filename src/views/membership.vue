@@ -268,7 +268,7 @@
                       10:00-11:00
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="kazisohrab.jpg" alt="sohrab" width="100">
+                      <img src="../components/kazisohrab.jpg" alt="sohrab" width="100">
                     </td>
                     <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
@@ -294,7 +294,7 @@
                       13:00-14:00
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="asif.jpg" alt="asif" width="100">
+                      <img src="../components/asif.jpg" alt="asif" width="100">
                     </td>
                     <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
@@ -318,7 +318,7 @@
                       09:00-10:00
                     </td>
                   <td class="px-6 py-4 grid place-items-center ">
-                    <img src="arpon.jpg" alt="arpon" width="100">
+                    <img src="../components/arpon.jpg" alt="arpon" width="100">
                   </td>
                   <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
@@ -342,7 +342,7 @@
                       13:00-14:00
                     </td>
                   <td class="px-6 py-4 grid place-items-center ">
-                    <img src="alvi.jpg" alt="alvi" width="100">
+                    <img src="../components/alvi.jpg" alt="alvi" width="100">
                   </td>
                   <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
