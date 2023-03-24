@@ -72,24 +72,20 @@
             
           "
         >
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="" onClick="document.location.reload(true)">Home</a>
-          </li>
-          
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="/membership">Membership</a>
-            
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">          
+            <router-link to=""> Home </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="/notice">Notice Board</a>
-            
+            <router-link to="/membership"> Membership </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="/instructor">Instructor</a>
-            
+            <router-link to="/notice"> Notice Board</router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <a href="/contact">Contact Us</a>
+            <router-link to="/instructor"> Instructor </router-link>
+          </li>
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+            <router-link to="/contact"> Contact Us </router-link>
             
           </li>
         </ul>
