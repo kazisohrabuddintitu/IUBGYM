@@ -105,15 +105,15 @@
             <div class="px-4">
                 <div class="flex flex-col md:flex-row">
                                                               
-                      <div><img src="http://www.iub.edu.bd/img/articles/gym19032015/1.jpg" alt="IUB"></div>
-                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/3.jpg" alt="IUB"></div>
-                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/4.jpg" alt="IUB"></div>
+                      <div><img src="../components/gymPhoto-1.jpeg" alt="IUB"></div>
+                      <div ><img src="../components/gymPhoto_2.jpeg" alt="IUB"></div>
+                      <div ><img src="../components/gymPhoto_3.jpeg" alt="IUB"></div>
                 </div>
                 <div class="flex flex-col md:flex-row">
 
-                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/5.jpg" alt="IUB"></div>							
-                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/7.jpg" alt="IUB"></div>
-                      <div ><img src="http://www.iub.edu.bd/img/articles/gym19032015/6.jpg" alt="IUB"></div>
+                      <div ><img src="../components/gymPhoto_4.jpeg" alt="IUB"></div>							
+                      <div ><img src="../components/gymPhoto_5.jpeg" alt="IUB"></div>
+                      <div ><img src="../components/gymPhoto_6.jpeg" alt="IUB"></div>
                       
                 </div>
             </div>   
