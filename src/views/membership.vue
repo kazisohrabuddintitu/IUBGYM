@@ -103,7 +103,7 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-given-name" type="text" value="">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-given-name" type="text" value="">
             </div>
           </div>
           <div class="md:flex md:items-center mb-6">
@@ -113,7 +113,7 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-sure-name" type="text" value="">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-sure-name" type="text" value="">
             </div>
           </div>
           <div class="md:flex md:items-center mb-6">
@@ -123,7 +123,7 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-email" type="email" value="">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-email" type="email" value="">
             </div>
           </div>
           <div class="md:flex md:items-center mb-6">
@@ -133,7 +133,7 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-age" type="number" value="">
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-age" type="number" value="">
             </div>
           </div>
           <div class="md:flex md:items-center mb-6">
@@ -143,7 +143,7 @@
               </label>
             </div>           
             <div class="md:w-2/3">
-              <select id="gender" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500">
+              <select id="gender" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white ">
                 <option selected>Select your gender</option>
                 <option value="male">Male</option>
                 <option value="female">Female</option>
@@ -158,7 +158,7 @@
               </label>
             </div>           
             <div class="md:w-2/3">
-              <select id="gender" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500">
+              <select id="gender" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white ">
                 <option selected>Select your time slot</option>
                 <option value="1">08:00-09:00</option>
                 <option value="2">09:00-10:00</option>
@@ -179,15 +179,37 @@
               </label>
             </div>
             <div class="md:w-2/3">
-              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="inline-file" type="file" value="">   
+              <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white " id="inline-file" type="file" value="">   
             </div>    
+          </div>
+          <div class="md:flex md:items-center mb-6">
+            <div class="md:w-1/3">
+              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+                Payment
+              </label>
+            </div>           
+            <div class="md:w-2/3">
+              <select v-model="payment" id="payment" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white">
+                <option selected value="auto">Select your payment method</option>
+                <option value="card" >Card</option>
+                <option value="bkash">Bkash</option>
+              </select>
+            </div>
           </div>
           <div class="md:flex md:items-center">
             <div class="md:w-1/3"></div>
             <div class="md:w-2/3">
+              <router-link v-if="payment === 'card'" to="/card">
               <button class="shadow focus:shadow-outline focus:outline-none py-2 px-4 rounded hover:bg-slate-400 bg-slate-100" type="submit">
                 Submit & Payment
               </button>
+              </router-link>
+
+              <router-link v-else-if="payment === 'bkash'" to="/bkash">
+              <button class="shadow focus:shadow-outline focus:outline-none py-2 px-4 rounded hover:bg-slate-400 bg-slate-100" type="submit">
+                Submit & Payment
+              </button>
+              </router-link>
             </div>
           </div>
         </form>
@@ -380,6 +402,7 @@ export default {
   data() {
     return {
       showMenu: false,
+      payment: 'auto',
     };
   },
   methods:{

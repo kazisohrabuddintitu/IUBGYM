@@ -4,6 +4,8 @@ import membership from '../views/membership.vue'
 import notice from '../views/notice.vue'
 import contact from '../views/contact.vue'
 import instructor from '../views/instructor.vue'
+import card from '../views/card.vue'
+import bkash from '../views/bkash.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,6 +39,18 @@ const router = createRouter({
       path: '/instructor',
       name: 'instructor',
       component: instructor,
+
+     },
+     {
+      path: '/card',
+      name: 'card',
+      component: card,
+
+     },
+     {
+      path: '/bkash',
+      name: 'bkash',
+      component: bkash,
 
      },
     // {
