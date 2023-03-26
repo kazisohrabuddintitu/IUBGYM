@@ -152,8 +152,8 @@
           <img src="../assets/ladiesgym2.jpeg">
         </div>
         <div>
-          <h1 class="text-4xl mb-3">Best Ladies Gym</h1> 
-          <p>
+          <h1 class="text-4xl pl-5 mb-3 md:mb-10">Best Ladies Gym</h1> 
+          <p class="p-5">
             IUB Gymnasium encourages our women to build strong bodies and lead healthy lifestyles. 
             Our experienced and certified female fitness trainers will guide and help you to 
             achieve your fitness goal with an amazing body shape. We have a dedicated floor 
