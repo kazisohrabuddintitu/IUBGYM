@@ -96,7 +96,7 @@
 
     <!-- Content Section Start -->
     <section id="content">
-      <div class="content bg-opacity-50 bg-slate-500">
+      <div class="content bg-opacity-50 bg-slate-400">
           <div class="">
             <div class="grid place-items-center py-6 font-bold md:text-4xl text-base text-iub-color-primary">
               <h1 >IUB Gymnasium</h1>
@@ -118,7 +118,7 @@
                 </div>
             </div>   
 			    </div>
-          <div class="py-6 px-4 italic">
+          <div class="py-6 px-4">
               <p>The IUB Gymnasium is a state-of-the-art facility that has been 
                 designed to meet the fitness needs of students, faculty, and 
                 staff members. It is equipped with a wide range of exercise 
@@ -141,6 +141,96 @@
     </section>
     <!-- Content Secton End -->
     
+
+
+
+    <!-- Gym for Woman Section Start -->
+    <section id="womanSection" class="bg-slate-400 bg-opacity-50">
+      
+      <div class="grid md:grid-cols-2 gap-5 pl-4 pt-10 md:pt-20 max-h-full pb-10">
+        <div class="w-full">
+          <img src="../assets/ladiesgym2.jpeg">
+        </div>
+        <div>
+          <h1 class="text-4xl mb-3">Best Ladies Gym</h1> 
+          <p>
+            IUB Gymnasium encourages our women to build strong bodies and lead healthy lifestyles. 
+            Our experienced and certified female fitness trainers will guide and help you to 
+            achieve your fitness goal with an amazing body shape. We have a dedicated floor 
+            specially designed for our women and ensure a safe and secure environment for 
+            comfortable workouts. Our effective fitness plan will ensure positive output and 
+            guaranteed results within a short time. As a ladies’ gym we offer all sorts of facilities. 
+          </p>
+          <div class="grid grid-cols-3 pt-3">
+            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-345649d" data-id="345649d" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-4bdef8d elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="4bdef8d" data-element_type="widget" data-widget_type="icon-box.default">
+                  <div class="elementor-widget-container">
+                    <div class="elementor-icon-box-wrapper text-center">
+                      <div class="elementor-icon-box-icon ">
+                        <span class="elementor-icon elementor-animation-">
+                          <i aria-hidden="true" class="fas fa-weight fa-3x" style="color: #e32400;"></i>
+                        </span>
+                      </div>
+                      <div class="elementor-icon-box-content">
+                        <h3 class="elementor-icon-box-title">
+                          <span>Weight Loss</span>
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1d333ac" data-id="1d333ac" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-fb3e435 elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="fb3e435" data-element_type="widget" data-widget_type="icon-box.default">
+                  <div class="elementor-widget-container">
+                    <div class="elementor-icon-box-wrapper text-center">
+                        <div class="elementor-icon-box-icon">
+                          <span class="elementor-icon elementor-animation-">
+                            <i aria-hidden="true" class="fas fa-dumbbell fa-3x" style="color: #e32400;"></i>
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Weight Lifting</span>
+                          </h3>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-465bf54" data-id="465bf54" data-element_type="column">
+              <div class="elementor-widget-wrap elementor-element-populated">
+                  <div class="elementor-element elementor-element-51b82dd elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="51b82dd" data-element_type="widget" data-widget_type="icon-box.default">
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper text-center">
+                        <div class="elementor-icon-box-icon ">
+                          <span class=" elementor-icon elementor-animation-">
+                            <i aria-hidden="true" class="fas fa-heartbeat fa-3x" style="color: #e32400;"></i>
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Aerobics</span>
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>               
+        </div>                 
+      </div>
+    </section>
+
+    <!-- Gym for Woman Section End -->
+
+
+
 
 
     <!-- Footer Section Start -->
