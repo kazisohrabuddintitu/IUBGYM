@@ -7,7 +7,7 @@
         grid place-items-center
         ">
             <div class="md:pb-3">
-            <img src="../components/iub_logo_white.png" alt="iub">
+            <img src="../assets/iub_logo_white.png" alt="iub">
             </div>
             <div class="md:font-bold">
             <h1>Independent University, Bangladesh</h1>
@@ -167,7 +167,7 @@
                                     </ul>
                                 </td>
                                 <td class="px-6 py-4 grid place-items-center ">
-                                <img src="../components/kazisohrab.jpg" alt="sohrab" width="100">
+                                <img src="../assets/kazisohrab.jpg" alt="sohrab" width="100">
                                 </td>
                             </tr>
                            
@@ -199,7 +199,7 @@
                                 </ul>  
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="../components/arpon.jpg" alt="arpon" width="100">
+                                <img src="../assets/arpon.jpg" alt="arpon" width="100">
                             </td>
                             </tr>
                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -229,7 +229,7 @@
                                 </ul>                                                       
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="../components/alvi.jpg" alt="alvi" width="100">
+                                <img src="../assets/alvi.jpg" alt="alvi" width="100">
                             </td>
                             </tr>
                             </tbody>
@@ -309,7 +309,7 @@
                                 </ul>  
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="../components/arpon.jpg" alt="arpon" width="100">
+                                <img src="../assets/arpon.jpg" alt="arpon" width="100">
                             </td>
                         </tr>
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -339,7 +339,7 @@
                                 </ul>                                                       
                             </td>
                             <td class="px-6 py-4 grid place-items-center ">
-                                <img src="../components/alvi.jpg" alt="alvi" width="100">
+                                <img src="../assets/alvi.jpg" alt="alvi" width="100">
                             </td>
                         </tr>
                         </tbody>

@@ -2,7 +2,7 @@
     <main>
         <div class="flex justify-center items-center min-h-screen bg-slate-300">
             <div class="h-auto w-80 bg-pink-600 p-3 rounded-lg text-white">
-                <p class="text-xl font-semibold grid place-items-center"><img src="../components/bKash-Payment.png"></p>
+                <p class="text-xl font-semibold grid place-items-center"><img src="../assets/bKash-Payment.png"></p>
                 <div class="text-center mt-6 py-3 bg-pink-700 rounded border-2 border-pink-700 relative justify-center block"> 
                     <div>Merchant : IUB</div>
                     <div>Invoice no : 21279615</div>

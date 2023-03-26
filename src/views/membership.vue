@@ -7,7 +7,7 @@
         grid place-items-center
           ">
           <div class="md:pb-3">
-            <img src="../components/iub_logo_white.png" alt="iub">
+            <img src="../assets/iub_logo_white.png" alt="iub">
           </div>
           <div class="md:font-bold">
             <h1>Independent University, Bangladesh</h1>
@@ -285,7 +285,7 @@
                       10:00-11:00
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="../components/kazisohrab.jpg" alt="sohrab" width="100">
+                      <img src="../assets/kazisohrab.jpg" alt="sohrab" width="100">
                     </td>
                     <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
@@ -311,7 +311,7 @@
                       13:00-14:00
                     </td>
                     <td class="px-6 py-4 grid place-items-center ">
-                      <img src="../components/asif.jpg" alt="asif" width="100">
+                      <img src="../assets/asif.jpg" alt="asif" width="100">
                     </td>
                     <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
@@ -335,7 +335,7 @@
                       09:00-10:00
                     </td>
                   <td class="px-6 py-4 grid place-items-center ">
-                    <img src="../components/arpon.jpg" alt="arpon" width="100">
+                    <img src="../assets/arpon.jpg" alt="arpon" width="100">
                   </td>
                   <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>
@@ -359,7 +359,7 @@
                       13:00-14:00
                     </td>
                   <td class="px-6 py-4 grid place-items-center ">
-                    <img src="../components/alvi.jpg" alt="alvi" width="100">
+                    <img src="../assets/alvi.jpg" alt="alvi" width="100">
                   </td>
                   <td class="px-6 py-4">
                       <a href="#content" class="hover:text-iub-color-primary">Edit</a>

@@ -7,7 +7,7 @@
      grid place-items-center
       ">
         <div class="md:pb-3">
-          <img src="../components/iub_logo_white.png" alt="iub">
+          <img src="../assets/iub_logo_white.png" alt="iub">
         </div>
         <div class="md:font-bold">
           <h1>Independent University, Bangladesh</h1>
@@ -105,15 +105,15 @@
             <div class="px-4">
                 <div class="flex flex-col md:flex-row">
                                                               
-                      <div><img src="../components/gymPhoto-1.jpeg" alt="IUB"></div>
-                      <div ><img src="../components/gymPhoto_2.jpeg" alt="IUB"></div>
-                      <div ><img src="../components/gymPhoto_3.jpeg" alt="IUB"></div>
+                      <div><img src="../assets/gymPhoto-1.jpeg" alt="IUB"></div>
+                      <div ><img src="../assets/gymPhoto_2.jpeg" alt="IUB"></div>
+                      <div ><img src="../assets/gymPhoto_3.jpeg" alt="IUB"></div>
                 </div>
                 <div class="flex flex-col md:flex-row">
 
-                      <div ><img src="../components/gymPhoto_4.jpeg" alt="IUB"></div>							
-                      <div ><img src="../components/gymPhoto_5.jpeg" alt="IUB"></div>
-                      <div ><img src="../components/gymPhoto_6.jpeg" alt="IUB"></div>
+                      <div ><img src="../assets/gymPhoto_4.jpeg" alt="IUB"></div>							
+                      <div ><img src="../assets/gymPhoto_5.jpeg" alt="IUB"></div>
+                      <div ><img src="../assets/gymPhoto_6.jpeg" alt="IUB"></div>
                       
                 </div>
             </div>   
@@ -161,7 +161,7 @@
             comfortable workouts. Our effective fitness plan will ensure positive output and 
             guaranteed results within a short time. As a ladies’ gym we offer all sorts of facilities. 
           </p>
-          <div class="grid grid-cols-3 pt-3">
+          <div class="grid grid-cols-3 pt-10 md:pt-20">
             <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-345649d" data-id="345649d" data-element_type="column">
               <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-4bdef8d elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="4bdef8d" data-element_type="widget" data-widget_type="icon-box.default">
