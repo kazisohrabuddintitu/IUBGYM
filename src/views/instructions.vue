@@ -2,16 +2,16 @@
     <main class="min-h-screen">
             <!-- Header Section Start -->
             <section id="head">
-            <div class="container-fluid py-5 bg-iub-color-primary text-white
-            grid place-items-center
-            ">
-                <div class="md:pb-3">
-                <img src="../assets/iub_logo_white.png" alt="iub">
-                </div>
-                <div class="md:font-bold">
-                <h1>Independent University, Bangladesh</h1>
-                </div>
-            </div>
+                  <div class="container-fluid py-5 bg-iub-color-primary text-white
+                grid place-items-center
+                  ">
+                    <div class="md:pb-3">
+                      <img src="../assets/iub_logo_white.png" alt="iub">
+                    </div>
+                    <div class="md:font-bold">
+                      <h1>Independent University, Bangladesh</h1>
+                    </div>
+                  </div>
             </section>
             <!-- Header Section End -->
 
@@ -19,46 +19,46 @@
 
             <!-- Navigation Section Start -->
             <section id="navbar">
-            <nav
+              <nav
                 class="
-                md:flex md:justify-between md:items-center
-                bg-gradient-to-r from-iub-color-primary to-nav-color px-2 sm:px-4 py-2.5
+                  md:flex md:justify-between md:items-center
+                  bg-gradient-to-r from-iub-color-primary to-nav-color px-2 sm:px-4 py-2.5
                 "
-            >
+              >
                 <div class="flex items-center justify-between">
-                <h1 class="
-                    text-xl 
-                    text-white
-                    md:text-2xl
-                    italic hover:not-italic
+                  <h1 class="
+                      text-xl 
+                      text-white
+                      md:text-2xl
+                      italic hover:not-italic
                     "
                     >Instructions
-                </h1>
-                <!-- Mobile menu button -->
-                <div @click="showMenu = !showMenu" class="flex md:hidden">
+                  </h1>
+                  <!-- Mobile menu button -->
+                  <div @click="showMenu = !showMenu" class="flex md:hidden">
                     <button
-                    type="button"
-                    class="
+                      type="button"
+                      class="
                         text-gray-800
                         hover:text-gray-400
                         focus:outline-none focus:text-gray-400
-                    "
+                      "
                     >
-                    <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                      <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
                         <path
-                        fill-rule="evenodd"
-                        d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+                          fill-rule="evenodd"
+                          d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
                         ></path>
-                    </svg>
+                      </svg>
                     </button>
-                </div>
+                  </div>
                 </div>
 
 
                 <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
                 <ul
-                :class="showMenu ? 'flex' : 'hidden'"
-                class="
+                  :class="showMenu ? 'flex' : 'hidden'"
+                  class="
                     flex-col
                     mt-8
                     space-y-4
@@ -69,43 +69,46 @@
                     md:space-x-10
                     md:mt-0
                     
-                "
+                  "
                 >
-                <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">          
+                  <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">          
                     <router-link to="/"> Home </router-link>
-                </li>
-                <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+                  </li>
+                  <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
                     <router-link to="/membership"> Membership </router-link>
-                </li>
-                <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+                  </li>
+                  <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
                     <router-link to=""> Instructions </router-link>           
-                </li>
-                <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+                  </li>
+                  <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
                     <router-link to="/notice"> Notice Board</router-link>
-                </li>
-                <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+                  </li>
+                  <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
                     <router-link to="/instructor"> Instructor </router-link>
-                </li>
-
-                <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+                  </li>
+                  <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
                     <router-link to="/contact"> Contact Us </router-link>
                     
-                </li>
+                  </li>
                 </ul>
-            </nav>
+              </nav>
             </section>
             <!-- Navigation Section End -->
 
 
 
+
             <!-- Rules Section Start -->
             <section id="rules">
-                <div class="grid md:grid-cols-2 gap-5 pl-4 pt-10 md:pt-20 max-h-full pb-10 bg-slate-400 bg-opacity-50">
-                    <div class="w-full">
-                        <img src="../assets/ins.webp">
+              <div class="bg-slate-400 bg-opacity-50 max-h-full">
+                
+                <div>
+                  <div class="grid md:grid-cols-2 gap-5 pt-10 md:pt-20 pl-4 pr-4 pb-10 ">
+                    <div class="">
+                        <img src="../assets/ins.jpeg">
                     </div>
                     <div>
-                        <ol class="font-mono">
+                        <ul class="font-mono">
                             <li>
                                 <p class="font-bold">1. Wear appropriate gym attire:</p> Specific shoe just for gym, Proper gym attire includes comfortable and breathable clothing that allows you to move freely during exercise. Avoid wearing clothing with zippers, buttons, or any sharp objects that may damage the gym equipment or cause injury.
                             </li>
@@ -136,8 +139,7 @@
                             <li>
                                 <p class="font-bold">10. Seek help when needed:</p> If you have any questions or concerns about gym etiquette or equipment use, seek help from gym staff or instructors who are there to assist you.
                             </li>
-                        </ol>
-                        
+                        </ul>                        
                     </div>
                 </div>
 
@@ -148,7 +150,7 @@
                     
                     <div>
                         <h1 class="text-4xl text-center mb-5">As a Beginner</h1>
-                        <ol>
+                        <ul>
                             <li>
                                 <p class="font-bold">Start with a warm-up:</p>
                                 Begin your workout with a 5-10 minute warm-up to get your heart rate up and prepare your body for exercise. You can use a treadmill, stationary bike, or elliptical machine for this.
@@ -171,10 +173,12 @@
                             <li>
                                 <p class="font-bold">Don't compare yourself to others:</p>
                                 Everyone has a different fitness level and progress at their own pace. Don't compare yourself to others in the gym and focus on your own goals and progress.                            </li>
-                        </ol>
+                        </ul>
                     </div>
                 </div>
-
+                </div>
+                
+              </div>
             </section>
             <!-- Rules Section End -->
 
@@ -199,6 +203,10 @@
 </template>
 <script>
 export default {
-    
-}
+  data() {
+    return {
+      showMenu: false,
+    };
+  },
+};
 </script>
