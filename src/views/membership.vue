@@ -78,6 +78,9 @@
             <router-link to=""> Membership </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+            <router-link to="/instructions"> Instructions </router-link>           
+          </li>
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
             <router-link to="/notice"> Notice Board </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
@@ -95,10 +98,11 @@
     <!-- Membership Process Section Start -->
     <section id="content" class="bg-opacity-30 bg-slate-500">
         <h1 class="grid place-items-center font-bold pt-5 text-lg text-iub-color-primary">Membership Process</h1>
+        <h1 class="pl-10 pt-5">Membership fees 500tk only</h1>
         <form class="w-full max-w-xl p-10">
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-given-name">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-given-name">
                 Given Name
               </label>
             </div>
@@ -108,7 +112,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-sure-name">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-sure-name">
                 Surename
               </label>
             </div>
@@ -118,7 +122,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-email">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-email">
                 IUB Email
               </label>
             </div>
@@ -128,7 +132,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
                 Age
               </label>
             </div>
@@ -138,7 +142,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
                 Gender
               </label>
             </div>           
@@ -153,7 +157,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
                 Available Time Slot
               </label>
             </div>           
@@ -174,7 +178,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3 ">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-file" >
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-file" >
                 Upload Photo
               </label>
             </div>
@@ -184,7 +188,7 @@
           </div>
           <div class="md:flex md:items-center mb-6">
             <div class="md:w-1/3">
-              <label class="block text-gray-500 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
+              <label class="block text-gray-700 font-bold md:text-left mb-1 md:mb-0 pr-4" for="inline-age">
                 Payment
               </label>
             </div>           

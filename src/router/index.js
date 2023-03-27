@@ -6,6 +6,7 @@ import contact from '../views/contact.vue'
 import instructor from '../views/instructor.vue'
 import card from '../views/card.vue'
 import bkash from '../views/bkash.vue'
+import instructions from '../views/instructions.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -51,6 +52,12 @@ const router = createRouter({
       path: '/bkash',
       name: 'bkash',
       component: bkash,
+
+     },
+     {
+      path: '/instructions',
+      name: 'instructions',
+      component: instructions,
 
      },
     // {
