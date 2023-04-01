@@ -33,7 +33,7 @@
                 md:text-2xl
                 italic hover:not-italic
                 "
-                >Instructor
+                >Trainers
             </h1>
             <!-- Mobile menu button -->
             <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -79,13 +79,16 @@
             <router-link to="/membership"> Membership </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+            <router-link to="/equipment"> Equipment </router-link>
+          </li>
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
             <router-link to="/instructions"> Instructions </router-link>           
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
             <router-link to="/notice"> Notice Board </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
-            <router-link to=""> Instructor </router-link>
+            <router-link to="" exact-active-class="text-red-900"> Trainers </router-link>
           </li>
           <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
             <router-link to="/contact"> Contact Us </router-link>         
