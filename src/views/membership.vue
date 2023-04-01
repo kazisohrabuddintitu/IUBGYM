@@ -296,6 +296,31 @@
                     </td>
 
                   </tr>
+                  <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+
+                  <td scope="row" class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap">
+                    Sabbir Ahamed
+                  </td>
+                  <td class="px-6 py-4">
+                    1930434
+                  </td>
+                  <td class="px-6 py-4">
+                    23
+                  </td>
+                  <td class="px-6 py-4">
+                    Male
+                  </td>
+                  <td class="px-6 py-4">
+                    10:00-11:00
+                  </td>
+                  <td class="px-6 py-4 grid place-items-center ">
+                    <img src="../assets/sabbir.jpg" alt="sohrab" width="100">
+                  </td>
+                  <td class="px-6 py-4">
+                    <a href="#content" class="hover:text-iub-color-primary">Edit</a>
+                  </td>
+
+                  </tr>
 
                   <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
 

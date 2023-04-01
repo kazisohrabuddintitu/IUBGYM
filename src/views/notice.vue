@@ -103,19 +103,19 @@
           <div class="p-4">
             <div class="flex flex-col md:flex-row md:columns-4 ">
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
                 </div>
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Off day 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">IUB GYM will remain close on Sunday, 19 March 2023.</p>
                   </a>
                 </div>
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
@@ -123,19 +123,19 @@
             </div>
             <div class="flex flex-col md:flex-row md:columns-4">
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
                 </div>
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
                 </div>
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
@@ -143,19 +143,19 @@
             </div>
             <div class="flex flex-col md:flex-row md:columns-4 ">
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
                 </div>
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
                 </div>
                 <div class="w-full md:h-52 block max-w-2lg p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <a href="http://www.iub.edu.bd/files/notice/Notice25082022.pdf">
+                  <a href="http://www.iub.edu.bd/files/notice/Attendance16102022.pdf">
                     <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">New Equipment 2023</h5>
                     <p class="font-normal text-gray-700 dark:text-gray-400">We have enrich our instrumental resources to improve the quality of IUB GYM.</p>
                   </a>
