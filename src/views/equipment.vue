@@ -187,7 +187,7 @@
                         </p>
                     </div>
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/incline-chest press.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/incline.jpeg">
                     </div>
                     <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">                  
                         <h1 class="text-4xl text-center mb-5">INCLINE CHEST PRESS</h1>
