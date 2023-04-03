@@ -71,25 +71,28 @@
             
           "
         >
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">          
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">          
             <router-link to="/"> Home </router-link>
           </li>
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">          
+            <router-link to="/classes"> Classes </router-link>
+          </li>
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">
             <router-link to="/membership"> Membership </router-link>
           </li>
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">
             <router-link to="" exact-active-class="text-red-900"> Equipment </router-link>
           </li>
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">
             <router-link to="/instructions"> Instructions </router-link>           
           </li>
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">
             <router-link to="/notice"> Notice Board</router-link>
           </li>
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">
             <router-link to="/instructor"> Trainers </router-link>
           </li>
-          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-400">
+          <li class="text-sm font-bold text-gray-300 md:text-gray-800 md:hover:text-gray-600 hover:text-sky-800">
             <router-link to="/contact"> Contact Us </router-link>
             
           </li>
@@ -104,12 +107,13 @@
 
     <section id="content">
             <div class="bg-slate-400 bg-opacity-50 ">
-                <h1 class="text-4xl text-center p-5">Equipment</h1>
-                <div class="grid md:grid-cols-4 pl-4 pt-5 max-h-full">
+                <h1 class="text-4xl text-center pt-5 font-bold">Equipment</h1>
+                <div class="p-6">
+                  <div class="grid md:grid-cols-4 pt-5 max-h-full gap-2">
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/abcore.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110 rounded-lg" src="../assets/abcore.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
                         
                         <h1 class="text-4xl text-center mb-5">ABCORE</h1>
                         <p class="p-5">Any machine that brings the lower body up toward the upper 
@@ -120,9 +124,9 @@
                         </p>
                     </div>
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/belly-bench.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110 rounded-lg" src="../assets/belly-bench.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
                         
                         <h1 class="text-4xl text-center mb-5">BELLY BENCH</h1>
                         <p class="p-5">
@@ -136,11 +140,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="grid md:grid-cols-4 pl-4 max-h-full">
+                <div class="grid md:grid-cols-4 max-h-full gap-2">
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/camber-curl.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110 rounded-lg" src="../assets/camber-curl.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
                         
                         <h1 class="text-4xl text-center mb-5">CAMBER CURL</h1>
                         <p class="p-5">
@@ -154,9 +158,9 @@
                         </p>
                     </div>
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/cross-trainer.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110 rounded-lg" src="../assets/cross-trainer.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
                         
                         <h1 class="text-4xl text-center mb-5">CROSS TRAINER</h1>
                         <p class="p-5">
@@ -170,11 +174,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="grid md:grid-cols-4 pl-4 max-h-full">
+                <div class="grid md:grid-cols-4 max-h-full gap-2">
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/latpulldown.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110 rounded-lg" src="../assets/latpulldown.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
                         
                         <h1 class="text-4xl text-center mb-5">LAT PULLDOWN</h1>
                         <p class="p-5">
@@ -187,9 +191,9 @@
                         </p>
                     </div>
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/incline.jpeg">
+                        <img class="transition duration-300 ease-in-out hover:scale-110 rounded-lg" src="../assets/incline.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">                  
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">                  
                         <h1 class="text-4xl text-center mb-5">INCLINE CHEST PRESS</h1>
                         <p class="p-5">
                             Incline Bench Press Muscles Worked. The Incline Bench Press 
@@ -199,11 +203,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="grid md:grid-cols-4 pl-4 max-h-full pb-5">
+                <div class="grid md:grid-cols-4 max-h-full gap-2 pb-5">
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110 " src="../assets/shoulder-press.jpeg">
+                        <img class="transition rounded-lg duration-300 ease-in-out hover:scale-110 " src="../assets/shoulder-press.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
+                    <div class="bg-blue-300 rounded-lg transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">
                         
                         <h1 class="text-4xl text-center mb-5">SHOULDER PRESS</h1>
                         <p class="p-5">
@@ -215,15 +219,16 @@
                         </p>
                     </div>
                     <div class="">
-                        <img class="transition duration-300 ease-in-out hover:scale-110" src="../assets/trade.jpeg">
+                        <img class="transition rounded-lg duration-300 ease-in-out hover:scale-110" src="../assets/trade.jpeg">
                     </div>
-                    <div class="bg-blue-300 transition duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">                  
+                    <div class="bg-blue-300 transition rounded-lg duration-300 ease-in-out hover:scale-110 hover:bg-sky-500">                  
                         <h1 class="text-4xl text-center mb-5">TRADE MILL</h1>
                         <p class="p-5">
                             A treadmill is a piece of indoor sporting equipment used to allow for the 
                             motions of running or walking while staying in one place.
                         </p>
                     </div>
+                </div>
                 </div>
             </div>
     </section>

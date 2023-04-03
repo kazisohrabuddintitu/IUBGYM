@@ -9,7 +9,8 @@ module.exports = {
         "nav-color": '#d1d5db',
       },
       backgroundImage: theme=>({
-        'iub': "url('iub.png')"
+        'iub': "url('iub.png')",
+        // 'classbg': "url('bodybuilding.jpeg')"
       })
     },
     fontFamily:{
