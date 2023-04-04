@@ -10,7 +10,7 @@ module.exports = {
       },
       backgroundImage: theme=>({
         'iub': "url('iub.png')",
-        // 'classbg': "url('bodybuilding.jpeg')"
+        'classbg': "url('ladiesgym2.jpeg')"
       })
     },
     fontFamily:{

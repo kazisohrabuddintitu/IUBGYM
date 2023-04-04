@@ -32,7 +32,7 @@
               md:text-2xl
               italic hover:not-italic
             "
-            >Equipment
+            >equipment
           </h1>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">

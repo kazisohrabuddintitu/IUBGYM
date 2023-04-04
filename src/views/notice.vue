@@ -30,7 +30,7 @@
               md:text-xl
               italic hover:not-italic
             "
-            >Notice Board
+            >notice board
           </h1>
             <!-- Mobile menu button -->
             <div @click="showMenu = !showMenu" class="flex md:hidden">

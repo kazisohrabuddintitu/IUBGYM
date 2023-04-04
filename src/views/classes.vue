@@ -33,7 +33,7 @@
                 md:text-2xl
                 italic hover:not-italic
                 "
-                >Classes
+                >classes
             </h1>
             <!-- Mobile menu button -->
             <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -109,7 +109,7 @@
                 <div class="grid md:grid-cols-3 gap-2">
                     <div class=" bg-gray-200 shadow-xl rounded-lg hover:scale-105 transition duration-300">
                         <img src="../assets/yoga.jpeg" alt="Yoga" class="w-full h-64 object-cover rounded-lg">
-                        <div class="bg-gray-200">
+                        <div class="bg-gray-200 pl-2 pr-2">
                             <h2 class="text-lg font-medium mb-2 text-gray-700">Yoga</h2>
                             <p class="text-gray-700 text-sm">
                                 Yoga is a holistic practice that originated in ancient India and has been 
@@ -120,7 +120,7 @@
                     </div>
                     <div class=" bg-gray-200 shadow-xl rounded-lg hover:scale-105 transition duration-300">
                         <img src="../assets/cardio.webp" alt="cardio" class="w-full h-64 object-cover rounded-lg">
-                        <div class="bg-gray-200 rounded-lg">
+                        <div class="bg-gray-200 rounded-lg pl-2 pr-2">
                             <h2 class="text-lg font-medium mb-2 text-gray-700">Cardio</h2>
                             <p class="text-gray-700 text-sm">
                                 Cardiovascular exercises help you in many ways. It helps to 
@@ -133,7 +133,7 @@
                     </div>
                     <div class=" bg-gray-200 shadow-xl rounded-lg hover:scale-105 transition duration-300">
                         <img src="../assets/fatloss.jpeg" alt="fatloss" class="w-full h-64 object-cover rounded-lg">
-                        <div class="bg-gray-200 rounded-lg">
+                        <div class="bg-gray-200 rounded-lg pl-2 pr-2">
                             <h2 class="text-lg font-medium mb-2 text-gray-700">Fat loss</h2>
                             <p class="text-gray-700 text-sm">
                                 Through different methods and ways, using various techniques which are obviously 
@@ -145,7 +145,7 @@
                 <div class="grid md:grid-cols-3 gap-2 pt-4">
                     <div class=" bg-gray-200 shadow-xl rounded-lg hover:scale-105 transition duration-300">
                         <img src="../assets/bodybuilding.jpeg" alt="bodybulding" class="w-full h-64 object-cover rounded-lg">
-                        <div class="bg-gray-200">
+                        <div class="bg-gray-200 pl-2 pr-2">
                             <h2 class="text-lg font-medium mb-2 text-gray-700">Body building</h2>
                             <p class="text-gray-700 text-sm">
                                 Bodybuilding is the use of progressive resistance exercise to control 
@@ -155,7 +155,7 @@
                     </div>
                     <div class=" bg-gray-200 shadow-xl rounded-lg hover:scale-105 transition duration-300">
                         <img src="../assets/hit.webp" alt="hit" class="w-full h-64 object-cover rounded-lg">
-                        <div class="bg-gray-200 rounded-lg">
+                        <div class="bg-gray-200 rounded-lg pl-2 pr-2">
                             <h2 class="text-lg font-medium mb-2 text-gray-700">Hit training</h2>
                             <p class="text-gray-700 text-sm">
                                 High-intensity interval training (HIIT), also called high-intensity intermittent 
@@ -167,7 +167,7 @@
                     </div>
                     <div class=" bg-gray-200 shadow-xl rounded-lg hover:scale-105 transition duration-300">
                         <img src="../assets/weightlift.jpeg" alt="weight" class="w-full h-64 object-cover rounded-lg">
-                        <div class="bg-gray-200 rounded-lg">
+                        <div class="bg-gray-200 rounded-lg pl-2 pr-2">
                             <h2 class="text-lg font-medium mb-2 text-gray-700">Weightlifting</h2>
                             <p class="text-gray-700 text-sm">
                                 Weight training is a common type of strength training for developing the strength 

@@ -33,7 +33,7 @@
               md:text-2xl
               italic hover:not-italic
             "
-            >IUB GYM
+            >iub gym
           </h1>
           <!-- Mobile menu button -->
           <div @click="showMenu = !showMenu" class="flex md:hidden">
@@ -114,7 +114,7 @@
             <div class="px-4">
                 <div class="flex flex-col md:flex-row">
                                                               
-                      <div><img src="../assets/gymPhoto-1.jpeg" alt="IUB"></div>
+                      <div><img src="../assets/gymphoto_6.jpeg" alt="IUB"></div>
                       <div ><img src="../assets/gymPhoto_2.jpeg" alt="IUB"></div>
                       <div ><img src="../assets/gymPhoto_3.jpeg" alt="IUB"></div>
                 </div>
