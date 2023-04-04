@@ -113,8 +113,8 @@
             
             <div class="px-4">
                 <div class="flex flex-col md:flex-row">
-                                                              
-                      <div><img src="../assets/gymphoto_6.jpeg" alt="IUB"></div>
+                                                             
+                      <div ><img src="../assets/gymPhoto_6.jpeg" alt="IUB"></div>
                       <div ><img src="../assets/gymPhoto_2.jpeg" alt="IUB"></div>
                       <div ><img src="../assets/gymPhoto_3.jpeg" alt="IUB"></div>
                 </div>
