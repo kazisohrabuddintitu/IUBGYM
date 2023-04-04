@@ -228,6 +228,22 @@
     </section>
     <!-- Content Section End -->
 
+
+    <!-- Footer Section Start -->
+    <section id="footerarea">
+            <div class="footer border-2 border-t-white">
+                <footer class="bg-iub-color-primary text-center text-white ">                   
+                    <div class="p-4 text-center">
+                    © 2023 Copyright:
+                    <a class="text-whitehite" href="http://www.iub.edu.bd">
+                        IUB
+                    </a>
+                    </div>
+                </footer>
+            </div>
+    </section>
+    <!-- Footer Section End -->
+
   </main>
 </template>
 
